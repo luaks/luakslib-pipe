@@ -1,4 +1,4 @@
-# @luaks/pipe
+# [@luaks/pipe](https://www.npmjs.com/package/@luaks/pipe)
 
 This library intends to replicate [ES Pipeline Operator](https://github.com/tc39/proposal-pipeline-operator) in a 
 somewhat fluent fashion.
