@@ -1,6 +1,7 @@
 {
   "name": "@luaks/pipe",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "repository": "https://github.com/luaks/luakslib-pipe",
   "scripts": {
     "build": "sh ./generate-pipe.sh && npm run tsc",
     "test": "tsc -p tsconfig.spec.json; node pipe.spec.js",
