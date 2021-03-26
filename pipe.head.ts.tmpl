@@ -1,0 +1,8 @@
+export function pipe<T>(initialValue: T): Pipe<T> {
+    return new Pipe(initialValue);
+}
+
+export class Pipe<T> {
+    constructor(private initialValue: T) {
+    }
+

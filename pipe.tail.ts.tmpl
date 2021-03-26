@@ -1,0 +1,4 @@
+    through<R>(fn1: (v: T) => unknown, ...fns: ((v: unknown) => unknown)[]): R {
+        return fns.reduce(((previousValue, currentFunction) => currentFunction(previousValue)), fn1(this.initialValue)) as R
+    }
+}

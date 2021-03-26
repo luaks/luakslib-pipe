@@ -1,0 +1,14 @@
+{
+  "name": "@luaks/pipe",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sh ./generate-pipe.sh && npm run tsc",
+    "test": "tsc -p tsconfig.spec.json; node pipe.spec.js",
+    "tsc": "tsc",
+    "clean": "rm -f pipe.js pipe.d.ts pipe.spec.js pipe.spec.d.ts",
+    "prepare-package": "mkdir package  && cp package.json pipe.js pipe.ts pipe.d.ts package"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}

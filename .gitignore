@@ -1,0 +1,6 @@
+pipe.ts
+*.d.ts
+pipe.js
+pipe.spec.js
+node_modules
+package
