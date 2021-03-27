@@ -2,5 +2,6 @@ pipe.ts
 *.d.ts
 pipe.js
 pipe.spec.js
+pipe.spec.d.ts
 node_modules
 package
